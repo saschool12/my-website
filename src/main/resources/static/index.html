@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>JavaHub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Java<span>Hub</span>
+    </div>
+
+    <nav>
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#features">
+            Features
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+    </nav>
+
+    <button
+        id="themeButton"
+        class="themeButton"
+    >
+        ☀
+    </button>
+
+</header>
+
+
+<main>
+
+
+<!-- HERO -->
+
+<section
+    id="home"
+    class="hero"
+>
+
+    <div class="heroContent">
+
+        <div class="tag">
+            JAVA + JAVASCRIPT
+        </div>
+
+        <h1>
+            Build something
+            <span>awesome.</span>
+        </h1>
+
+        <p class="heroText">
+            A modern full-stack website powered by
+            Java Spring Boot and JavaScript.
+        </p>
+
+        <div class="buttons">
+
+            <button
+                class="primary"
+                onclick="connectJava()"
+            >
+                Connect to Java
+            </button>
+
+            <button
+                class="secondary"
+                onclick="explore()"
+            >
+                Explore
+            </button>
+
+        </div>
+
+        <div id="status">
+            ● Java server not checked
+        </div>
+
+    </div>
+
+
+    <div class="codeBox">
+
+        <div class="window">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+<pre><code><b>public class</b> Website {
+
+    <b>public static void</b> main(
+        String[] args
+    ) {
+
+        System.out.println(
+            <i>"Hello World!"</i>
+        );
+
+    }
+}</code></pre>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section
+    id="features"
+    class="features"
+>
+
+    <div class="tag">
+        FEATURES
+    </div>
+
+    <h2>
+        Everything you need
+    </h2>
+
+    <p class="sectionText">
+        A simple but powerful Java and JavaScript
+        website structure.
+    </p>
+
+
+    <div class="cards">
+
+
+        <div class="card">
+
+            <div class="icon">
+                ☕
+            </div>
+
+            <h3>
+                Java Backend
+            </h3>
+
+            <p>
+                Spring Boot handles the backend,
+                REST API and server logic.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                JS
+            </div>
+
+            <h3>
+                JavaScript
+            </h3>
+
+            <p>
+                JavaScript handles interactions,
+                API requests and dynamic content.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                ⚡
+            </div>
+
+            <h3>
+                Fast
+            </h3>
+
+            <p>
+                Lightweight structure that is easy
+                to customize and expand.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                📱
+            </div>
+
+            <h3>
+                Responsive
+            </h3>
+
+            <p>
+                Designed to work on phones,
+                tablets and computers.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🔌
+            </div>
+
+            <h3>
+                REST API
+            </h3>
+
+            <p>
+                Java endpoints communicate directly
+                with the JavaScript frontend.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🚀
+            </div>
+
+            <h3>
+                Expandable
+            </h3>
+
+            <p>
+                Add authentication, database,
+                accounts and more later.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section
+    id="about"
+    class="about"
+>
+
+    <div class="tag">
+        ABOUT
+    </div>
+
+    <h2>
+        Java meets the web.
+    </h2>
+
+    <p>
+        Java powers the backend while JavaScript
+        controls the interactive frontend.
+    </p>
+
+    <button
+        class="primary"
+        onclick="testWebsite()"
+    >
+        Test Website
+    </button>
+
+    <div id="message"></div>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <div class="logo">
+        Java<span>Hub</span>
+    </div>
+
+    <p>
+        Built with Java + JavaScript
+    </p>
+
+    <p>
+        © 2026 JavaHub
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
